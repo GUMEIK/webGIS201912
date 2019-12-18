@@ -1,0 +1,19 @@
+{
+  "name": "webgis201912",
+  "version": "1.0.0",
+  "description": "2019年下半年第16周至第19周GIS综合实习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUMEIK/webGIS201912.git"
+  },
+  "author": "徐振鲁组",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUMEIK/webGIS201912/issues"
+  },
+  "homepage": "https://github.com/GUMEIK/webGIS201912#readme"
+}
