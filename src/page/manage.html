@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./manage.css">
+    <title>后台管理系统</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="topContent">
+            头部区域
+        </div>
+        <div class="bottomContent">
+            <div class="leftMenu">
+                <dl id="menu">
+                    <dt>用户管理</dt>
+                    <dd class="userList active">用户列表</dd>
+                    <dd class="addNewUser">新增用户</dd>
+                </dl>
+                底部左侧区域
+            </div>
+            <div class="rightContent">
+                <div class="userListContent">
+                    <!-- 用户列表展示区域 -->
+                    <table border="0">
+                        <!-- 头部区域 -->
+                        <thead>
+                            <tr>
+                                <th>你好</th>
+                                <th>我好</th>
+                                <th>大家好</th>
+                            </tr>
+                        </thead>
+                        <!-- 主题信息区域 -->
+                        <tbody></tbody>
+                    </table>
+                </div>
+                底部右侧区域
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        import './manage.js';
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    width:100%;
+    height: 100%;
+}
+body{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* wrapper区域 */
+.wrapper{
+    width:100%;
+    height: 100%;
+    /* box-sizing: border-box; */
+    /* border: 1px solid black; */
+}
+/* 头部区域 */
+.wrapper .topContent{
+    width:100%;
+    height: 50px;
+    /* border:1px solid orange; */
+}
+/* 底部区域 */
+.wrapper .bottomContent{
+    width:100%;
+    height: calc(100% - 50px);
+    background-color: green;
+    display: flex;
+}
+/* 底部区域菜单部分 */
+.wrapper .bottomContent .leftMenu{
+    width:200px;
+    height: 100%;
+    flex:1 1 auto;
+    background-color: rgba(77, 94, 122, 1);
+    color: #ddd;
+}
+.wrapper .bottomContent .leftMenu #menu{
+
+}
+.wrapper .bottomContent .leftMenu #menu dt{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.wrapper .bottomContent .leftMenu #menu dd{
+    height: 40px;
+    border-bottom:1px solid green;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.wrapper .bottomContent .leftMenu #menu dd.active{
+    background-color: #ddd;
+    color: black;
+}
+/* 底部区域列表部分 */
+.wrapper .bottomContent .rightContent{
+    width:calc(100% - 200px);
+    height: 100%;
+    flex:1 1 auto;
+}
