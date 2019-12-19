@@ -1,3 +1,1 @@
-export default {
-    name:'sss'
-}
+alert('index.js')
